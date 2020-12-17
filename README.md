@@ -21,6 +21,6 @@ Specific to the implementation of this definition by this code:
 
 4. The degenerateBionomial class also cotains a python list of the term-wise contributions - one of the advantages of this method over others is it can show you not only how different the true distribution is from the Binomial and how unlikely to be Binomial, but where the breakdown in the similarities occurs. This, in turn, allows the studious sociologist to determine the full landscape of polarization and where the breakdowns are occurring. Later versions (probably the next version) will take a "ilk" column for describing the type of group the individual observed groups belong to, which will assist with regressoin analysis of the nature of the observed degeneracy. Later versions will also include graphing and visualization functionalities, and more thorough summaries.
 
-5. The chi-squared functionality omits, per the reccomendation of the SciPy-statistics literature, any cases where either the observed or actual number of occurrences is too small for the chi-squared statistic to be correctly calculated
+5. The chi-squared functionality omits, per the reccomendation of the SciPy-statistics literature, any cases where either the observed or actual number of occurrences is too small for the chi-squared statistic to be correctly calculated. An optional parameter allows you to control this cutoff point, by default it is 5, per the reccomendation of the SciPy docs.
 
 CURRENT VERSION: 0.2 BETA

@@ -7,7 +7,7 @@ The mathematical definition is as follows:
 
 D = sum(S*d[k, n] - A[k, n]) over all (see [2] in the implementation section for details on "all") k & n
 
-Where S is the supremum (precise statement of use of the concept in this Python module to follow) of the distribution height within the data. Distribution height is defined as follows: d[k, n] is the density function of the Binomial distribution of probability p and repeat count n, with respect to having precisely k "yes's". A[k, n] is the actual number of groups in the data of size n with k yes's.
+Where S is the supremum (see [1] in implementation for details on how the supremum is calculated in the code) of the distribution height within the data. Distribution height is defined as follows: d[k, n] is the density function of the Binomial distribution of probability p and repeat count n, with respect to having precisely k "yes's". A[k, n] is the actual number of groups in the data of size n with k yes's.
 
 Specific to the implementation of this definition by this code:
 
